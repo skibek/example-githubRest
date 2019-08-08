@@ -1,0 +1,30 @@
+GET http://localhost:8080/repositories/skibek/charts
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-08-08T035857.200.json
+<> 2019-08-08T035851.200.json
+<> 2019-08-08T035842.200.json
+<> 2019-08-08T035836.200.json
+<> 2019-08-08T035810.200.json
+<> 2019-08-08T035732.200.json
+<> 2019-08-08T035729.200.json
+<> 2019-08-08T035717.200.json
+<> 2019-08-08T033401.200.json
+<> 2019-08-08T031427.200.json
+
+###
+
+
+GET http://localhost:8080/repositories/microsoft/terminal
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+
+GET http://localhost:8080/repositoriesConvert/microsoft/terminal
+Accept: */*
+Cache-Control: no-cache
+
+###

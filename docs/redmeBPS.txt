@@ -1,0 +1,11 @@
+Spring Initializr
+https://start.spring.io/
+
+
+
+Problem PKIX:
+
+KeyStore Explorer -
+to
+C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-openj9\lib\security\cacerts
+Pass: changeit
