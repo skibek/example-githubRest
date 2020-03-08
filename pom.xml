@@ -18,50 +18,6 @@
 		<java.version>11</java.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>central</id>
-			<name>nexus</name>
-			<url>http://srv-di-dev:8081/repository/maven-public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-
-		<repository>
-			<id>bps</id>
-			<name>nexus-bps</name>
-			<url>http://srv-di-dev:8081/repository/bps/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-
-	</repositories>
-
-	<!-- download plugins from this repo -->
-	<pluginRepositories>
-		<pluginRepository>
-			<id>central</id>
-			<name>nexus</name>
-			<url>http://srv-di-dev:8081/repository/maven-public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
